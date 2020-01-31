@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+.table-title{padding: 25px 0;}
+.table-title p{line-height: 28px;}
+.table-title button{
+	width:90px;
+	height: 28px;
+}
+.warm-green{
+	margin: 40px 0 20px 0;
+	height: 40px;
+	line-height: 40px;
+	font-weight: bold;
+}
+.span-tip{
+	display: inline-block;
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	color: #fff;
+	background: #63a9f1;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.span-tip.st2{
+	background: #33ba9b;
+}
+.span-tip.st3{
+	background: #ff9494;
+}
+.cur-default{
+	color: #33ba9b;
+}
+.table td{
+	border:  solid 1px #e9edee;
+	text-align: center;
+	color: #666666;
+	height: 70px;
+}
+.table tr:nth-child(2n){
+	background: #f7f9fb;
+}
+.table a{
+	margin-right: 0 !important;
+}
+.table div a{
+	margin: 0 5px !important;
+}
+.table thead tr td{
+	background: #f5f9fd;
+	height: 40px;
+	color: #596d78;
+	font-weight: bold;
+}
+.form .table input[type=checkbox]{
+	margin: 0 0 0 0;
+	vertical-align: middle;
+	height: auto;
+	line-height: normal;
+}
+.table tbody tr td:nth-child(6){
+	padding: 0 10px;
+}
+.table tbody tr td:nth-child(7){
+	word-break: break-all;
+	padding: 0 5px;
+}
+
+
+.venue-confirm .main{
+	padding: 40px 45px;
+}
+.venue-confirm .btns{
+	padding: 0;
+}
+.venue-confirm .btns button{
+	margin: 0 30px;
+}
+.venue-confirm .btns #ok{
+	background: #ff5400;
+}
+.venue-confirm .main .p1{
+	font-size: 16px;
+	line-height: 25px;
+	color: #666;
+	padding-bottom: 20px;
+}

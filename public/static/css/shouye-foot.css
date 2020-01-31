@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+
+
+.foot_fb_s140916 {width:100%;background:#1f2b31;}
+.foot-top1_s140916{ width:1200px;height: 236px;background:#1f2b31;margin:0 auto;}
+.ft-left_s140916 {width: 632px;float: left;display: inline; margin-left:80px;}
+
+.left-nr_s140916{ margin:20px auto; }
+.fb_lxwm_s140916{ float:left; width:60px; margin:0 71px;}
+.fb_yhxy_s140916{ float:left; width:60px;margin:0 71px;}
+.fb_gywm_s140916{ float:left; width:60px;margin:0 71px;}
+.fb_lxwm_s140916 li{ text-align:center; margin-top:5px;}
+.fb_yhxy_s140916 li{text-align:center; margin-top:5px;}
+.fb_gywm_s140916 li{ text-align:center; margin-top:5px;}
+.fb_lxwm_s140916 a{ font-size:12px; color:#c1c1c1;}
+.fb_yhxy_s140916 a{ font-size:12px; color:#c1c1c1;}
+.fb_gywm_s140916 a{font-size:12px; color:#c1c1c1; }
+
+.ft-left_s140916 p {text-align: center;color:#c1c1c1;font-size: 12px;margin-top:30px;}
+.ft-right_s140916 {width: 392px;float: left;display: inline; }
+
+
+.ft-right_s140916 ul {float: left;margin:34px 0 0 18px;width:150px;text-align:center; display: inline;color: #FFF;font-size: 12px;}
+.ft-right_s140916 ul li {margin-top: 5px;}
+.ft-right_s140916 h4 {color:#FFF;font-size: 12px;margin-top: 10px;font-weight: normal;text-align: center;}

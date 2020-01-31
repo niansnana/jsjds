@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+
+.stage4-award-page .selector>.sel-block{position: relative;}
+.stage4-award-tip{
+	position: relative;
+	padding-top: 30px;
+}
+.stage4-award-tip p{
+	color: #778a99;
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+.stage4-award-tip p:nth-child(3){padding-bottom: 0;}
+.stage4-award-tip>.btn-green-hollow{
+	position: absolute;
+	top: 30px;
+	right: 0;
+	width: 90px;
+	text-align: center;
+	height: 28px;
+}
+.stage4-award-tip>a.btn-green-hollow{
+	line-height: 28px;
+}
+
+.stage4-team-page .table-border td>p{word-break: break-all;}
+.stage4-team-page .upload-dialog .list{
+	margin-bottom: 12px;
+	position: relative;
+}
+.stage4-team-page .upload-dialog .list-t{
+	font-size: 14px;
+	color: #778a99;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: top;
+	padding-right: 25px;
+}
+.stage4-team-page .upload-dialog .list>textarea{
+	border: 1px solid #c8d2d7;
+	width: 350px;
+	padding-left: 14px;
+	height: 75px;
+	line-height: 24px;
+	resize: none;
+	font-size: 14px;
+	
+}
+.stage4-team-page .upload-dialog .list>textarea:focus{
+	border:1px solid #a0dfd0;
+}
+.stage4-team-page .upload-dialog .list>.tip{
+	position: absolute;
+	top: 30px;
+	left: 210px;
+	line-height: 20px;
+}
+.stage4-team-page .upload-dialog input[type=text]{
+	height: 30px;
+	line-height: 30px;
+	width: 350px;
+	font-size: 14px;
+}
+.stage4-team-page .upload-dialog .list>button{
+	width: 90px;
+	height: 30px;
+}
+.stage4-team-page .upload-dialog .list  #filediv{
+	width: 90px;
+	height: 30px;	
+	line-height:30px;
+	text-align:center;
+	border:0;
+}
+.stage4-team-page .upload-dialog .list.upload-works>.tip{
+	left: 185px;
+	line-height: 16px;
+	top: 0;
+}
+.stage4-team-page .upload-dialog .btns{
+	padding-bottom: 20px;
+}
+.stage4-team-page .upload-dialog .btns button{margin: 0 5px;}
+.stage4-team-page .upload-dialog .btn-gray{color: #778a99;}
+
+
+.stage4-team-page .upload-dialog .list p.err-msg{
+	color: #ff5600;
+	padding-top: 8px;
+	font-size: 12px;
+	padding-left: 82px;
+	display: none;
+}
+.stage4-team-page .upload-dialog .list.err p.err-msg{
+	display: block;
+}
+.stage4-team-page .upload-dialog .list.err input,
+.stage4-team-page .upload-dialog .list.err textarea{
+	border-color: #ff5600;
+}

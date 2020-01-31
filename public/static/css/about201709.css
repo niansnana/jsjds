@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+.navigation,
+.footer{
+	margin: 0;
+}
+
+			
+
+.about{
+	background: #fff;
+	border-top: solid 1px #e6e6e6;
+	color: #000;
+}
+.about .sec-t {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 75px 0 16px 0;
+}
+.about .section{
+	font-size: 16px;
+	line-height: 30px;
+}
+.about .partner table{
+	width: 100%;
+	table-layout: fixed;
+}
+.about .partner td{
+	text-align: center;
+	vertical-align: middle;
+	height: 108px;
+	border: solid 1px #ececec;
+}
+.about .ent{background:url(../image/ent-logo.png)  no-repeat;display: inline-block;}
+.about .ent-dx{height:65px;width:111px;background-position:0 0;}
+.about .ent-dr{height:71px;width:120px;background-position:0 -65px;}
+.about .ent-ali{height:55px;width:120px;background-position:0 -136px;}
+.about .ent-qnrj{height:55px;width:122px;background-position:0 -191px;}
+.about .ent-360{height:65px;width:122px;background-position:0 -246px;}
+.about .ent-ifeng{height:52px;width:123px;background-position:0 -311px;}
+.about .ent-tencent{height:66px;width:123px;background-position:0 -363px;}
+.about .ent-bd{height:85px;width:153px;background-position:0 -429px;}
+.about .ent-zqdl{height:110px;width:184px;background-position:0 -514px;}
+.about .ent-huawei{height:109px;width:184px;background-position:0 -624px;}
+.about .ent-ibm{height:109px;width:184px;background-position:0 -733px;}
+.about .ent-jz{height:110px;width:184px;background-position:0 -842px;}
+
+.about .credentials{
+	padding: 30px 0;
+	font-size: 0;
+}

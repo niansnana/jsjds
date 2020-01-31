@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* 你自己的样式 */
+.navbar{
+    background: #ebf1f6;
+}
+.Hui-aside{
+    background: #ebf1f6;
+}
+.Hui-aside .menu_dropdown dt{
+    line-height: 56px;
+    color: #606266;
+}
+.navbar-logo, .navbar-logo-m, .navbar-slogan, .navbar-userbar,
+.nav ul li,
+.nav ul li a {
+    color: #606266;
+}
+.cl li.dropDown a.pngfix{
+    padding-left: 60px;
+}
+.nav-toggle, a.nav-toggle,
+.nav-toggle:hover, a.nav-toggle:hover{
+    background-color: transparent;
+    color: #606266;
+}
+.Hui-tabNav{
+    background-color: #ebf1f6;
+}
+.Hui-tabNav .acrossTab li{
+    background-color: rgb(235, 241, 246);
+}
+.acrossTab li.active{
+    background-color: #fff;
+    color: rgb(47, 116, 255);
+    z-index: 99;
+}
+.breadcrumb{
+    background-color: #fff;
+}
+.page-container{
+    padding: 10px;
+    box-sizing: border-box;
+}
+.Hui-aside .menu_dropdown dt{
+    padding-left: 21px;
+}
+#Hui-userbar{
+    top: 6px;
+}
+/* 解决宽的问题，还是疑惑 */
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/* 富文本样式修改 */
+.cke_top,
+.cke_bottom{
+    background: #fff !important;
+}
+.wangEditor-container .wangEditor-txt{
+    height: 250px !important;
+}
+/* 修改系统样式 */
+.tabBar span.current{
+    background-color: #0073d1;
+}
+.tabBar{
+    border-bottom: 2px solid #0073d1;
+}
+.tabBar span{
+    background-color: #fff;
+}

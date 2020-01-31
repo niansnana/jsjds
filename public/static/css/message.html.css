@@ -1,0 +1,7 @@
+.msgList{margin-top:10px;width:100%;}
+.msgList .msg{padding:30px 40px 20px 35px; border-bottom: 1px solid #E6E6E6;}
+.msgList .name{font-size: 18px;overflow: hidden;}
+.msgList .read{color:#999 ;}
+.msgList .time{color:#c7c7c7 ;}
+.msgList .txt{margin-top:15px;line-height: 24px;font-size: 15px;}
+.msgList .txt a{color: #4aa0e7;}

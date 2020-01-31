@@ -1,0 +1,229 @@
+@-webkit-keyframes shake {
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@keyframes shake {
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+}
+
+
+.drag-big {
+	position: relative;
+	width: 360px;
+}
+
+.drag-pop:after {
+	content: "";
+	left: -16px;
+	top: 110px;
+	position: absolute;
+	border: 7px solid #fff;
+	margin: 1px 0 1px 2px;
+	border-color: transparent #fff transparent transparent;
+}
+
+.drag-pop {
+	position: absolute;
+	top: -100px;
+	left: 20%;
+	padding: 10px;
+	background: #ffffff;
+	box-shadow: 0 0 10px #cccccc;
+	border: 1px solid #cccccc;
+	display: none;
+	z-index: 8;
+}
+
+.drag-wrap {
+	width: 350px;
+	display: block;
+	background: #FFFFFF;
+}
+
+.drag-img-box {
+	width: 350px;
+	height: 160px;
+	position: relative;
+}
+
+.drag-img-box .drag-img-big {
+	width: 350px;
+	height: 160px;
+}
+.drag-img-box .drag-img-big img{
+	width: 350px;
+	height: 160px;
+	display: block;
+}
+.drag-img-box .drag-img-small {
+	width: 60px;
+	height: 160px;
+	position: absolute;
+	left: 0px;
+	top: 0;
+}
+.drag-img-box .drag-img-small img{
+	width: 60px;
+	height: 160px;
+	display: block;
+}
+.drag-slide {
+	width: 348px;
+	height: 40px;
+	position: relative;
+	text-align: center;
+	border: 1px solid #e4e7eb;
+	background-color: #f7f9fa;
+}
+
+.drag-slide .drag-target {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 20px;
+	height: 40px;
+	width: 40px;
+	background-image: url(../image/right3.png);
+	background-repeat: no-repeat;
+	background-position: 4px 4px;
+	background-color: #fff;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+	cursor: pointer;
+	transition: background .2s linear;
+	border-radius: 1px;
+	z-index: 2;
+}
+
+.drag-slide .drag-target:hover {
+	background-color: #1991fa;
+	background-image: url(../images/drag/right-active.png);
+}
+
+.drag-inner {
+	background: rgb(178, 219, 255);
+	height: 38px;
+	width: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #1991fa;
+	border-radius: 2px;
+}
+
+.drag-slide span {
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	color: #45494c;
+}
+
+.drag-tag-info,.drag-tag-suc {
+	width: 335px;
+	height: 40px;
+	background: linear-gradient(360deg, rgba(248, 248, 248, 1) 0%, rgba(255, 255, 255, 1) 100%);
+	border-radius: 2px;
+	border: 1px solid rgba(214, 214, 214, 1);
+	cursor: pointer;
+}
+
+.drag-tag-info .drag-tag-info-left,.drag-tag-suc .drag-tag-info-left {
+	display: inline-block;
+	width: 42px;
+	height: 40px;
+	border-radius: 2px 0px 0px 2px;
+	border-right: 1px solid rgba(214, 214, 214, 1);
+	text-align: center;
+	display: block;
+	float: left;
+}
+
+.drag-tag-info .drag-tag-info-left small {
+	margin-top: 12px;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background: -webkit-gradient(linear, 100% 0, 0 0, from(rgba(74, 219, 216, 1)), to(rgba(3, 163, 155, 1)));
+	background: -webkit-linear-gradient(180deg, rgba(74, 219, 216, 1) 0%, rgba(3, 163, 155, 1) 100%);
+	background: -moz-linear-gradient(180deg, rgba(74, 219, 216, 1) 0%, rgba(3, 163, 155, 1) 100%);
+	background: -o-linear-gradient(180deg, rgba(74, 219, 216, 1) 0%, rgba(3, 163, 155, 1) 100%);
+	background: linear-gradient(180deg, rgba(74, 219, 216, 1) 0%, rgba(3, 163, 155, 1) 100%);
+	border: 1px solid rgba(0, 162, 154, 1);
+	border-radius: 50%;
+}
+
+.drag-tag-info p,.drag-tag-suc p{
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: 500;
+	color: rgba(102, 102, 102, 1);
+}
+
+.drag-tag-suc p{
+	color: #00A29A;
+}
+.drag-tag-suc{
+	display: none;
+	
+}
+.drag-tag-suc .drag-tag-info-left small {
+	display: block;
+	width: 42px;
+	height: 40px;
+	background-image: url(../images/drag/check-circle.png);
+	background-size: 18px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
