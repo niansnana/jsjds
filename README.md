@@ -7,73 +7,119 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## About Laravel
+## 前言
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+20年1月份写的laravel后台，项目过于简单，不再赘述。:(丢人
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+四月补充的详细文档。
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 使用方式
 
-## Learning Laravel
+1. 环境要求
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+   - PHP >= 7.0.0
+   - Laravel >= 5.5.0
+   - Fileinfo PHP Extension
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+2. 下载方式
 
-## Laravel Sponsors
+   ```sh
+   # 下载项目
+   git clone https://github.com/niansnana/jsjds.git
+   # 切换项目文件夹，导入sql文件
+   cd database > jsjds.sql
+   # 运行项目
+   php artisan serve
+   # 浏览器打开运行地址
+   http://127.0.0.1:8000
+   ```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+3. 附加说明
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
+   遇到任何bug，要冷静处理，因为那都是我遗留下来的。哈哈
 
-## Contributing
+## 项目部分截图
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- 后台登录页
 
-## Code of Conduct
+  ![admin-login](https://cdn.jsdelivr.net/gh/niansnana/figurebed/blog/image/admin-login.jpg)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- 后台首页
 
-## Security Vulnerabilities
+  ![admin-index](https://cdn.jsdelivr.net/gh/niansnana/figurebed/blog/image/admin-index.jpg)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- 部分功能展示
+
+  ![admin-add](https://cdn.jsdelivr.net/gh/niansnana/figurebed/blog/image/admin-add.jpg)
+
+- 后台其他功能，不展示了，图多就审美疲劳了。
+
+- 前台首页，也不展示了，压根就没想到很好的渲染美化。
+
+- 更多细节，你可以去下载浏览。
+
+##  实现的功能
+
+- [x] 后台布局
+
+- [x] 增删改查
+
+- [x] RBAC
+
+- [x] 登录token验证
+
+- [x] Ajax局部刷新
+
+- [x] 侧边栏伸缩
+
+- [ ] 评论系统
+
+- [x] 图片上传
+
+- [x] 检索浏览
+
+- [ ] 日志管理
+
+- [x] 弹出框提示
+
+- [ ] 主题色功能
+
+- [ ] echarts数据实时浏览
+
+- [x] 前端全局变量
+
+- [ ] 杂七杂八
+
+  ...
+
+## 感谢栏
+
+十分感谢第三库作者的劳动果实，因为你们使得一些功能较愉快的解决。
+
+- [Laravel](https://laravel.com/) 感谢Taylor Otwell大佬编写的后台框架
+
+- [wangEditor](http://www.wangeditor.com/) 轻量级Web富文本编辑器
+
+- [layui](https://www.layui.com/) 经典模块化前端框架
+
+- [Jquery](https://jquery.com/) 一个较流行的JavaScript 工具库
+
+- [H-ui](http://www.h-ui.net/kehu.shtml) 后台模板框架
+
+- [DataTables](https://datatables.net/) 基于jQuery表格插件
+
+- [Web Uploader](https://fex.baidu.com/webuploader/) 由Baidu WebFE(FEX)团队开发的现代文件上传组件
+
+- [ECharts](https://www.echartsjs.com/zh/index.html) JavaScript 实现的开源可视化库
+
+- [七牛](https://www.qiniu.com/) 图片托管等作用
+
+  ...
+
+十分感谢！
 
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-"# jsjds" 
+
+作者：[niansnana](https://github.com/niansnana)
